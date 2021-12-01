@@ -1,0 +1,94 @@
+body{
+    background-color: #141E30;
+    font-family: 'Recursive', sans-serif;
+    text-align: center;
+}
+
+.glow {
+
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  
+.text{
+    font-size: 18px;
+    color: white;
+    animation: glow 1s ease-in-out infinite alternate;
+    padding-left: 10px;
+}
+
+#status{
+  background-color: white;
+  width: 200px;
+  height: 20px;
+  padding: 2px;
+  font-size: 15px;
+  border-radius: 5px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  top: 210px;
+  right: 680px;
+  position: fixed;
+}
+
+#status-detction{
+  background-color: white;
+  width: 200px;
+  height: 20px;
+  padding: 2px;
+  font-size: 15px;
+  border-radius: 5px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  top: 210px;
+  right: 400px;
+  position: fixed;
+}
+
+#status:hover{
+  cursor: text;
+}
+
+#input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px white solid;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+#start{
+  background-color: white;
+  border: 5px solid whitesmoke;
+  border-radius: 15px;
+  top: 170px;
+  right: 620px;
+  position: fixed;
+}
+
+#start:hover{
+  border: 2px solid green;
+}
+
+canvas{
+  border: white 2px solid;
+  border-radius: 20px;
+}
